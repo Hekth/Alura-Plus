@@ -103,8 +103,8 @@ body {
 .descricao__texto {
     color: var(--cinza-secundario);
     font-size: 1rem;
-    color: var(--cinza-secundario);
 }
+
 .terciario {
     justify-content: center;
     gap: 4.3125rem;
