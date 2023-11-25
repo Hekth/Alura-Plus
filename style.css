@@ -11,6 +11,7 @@
     --cinza-secundario: #F9F9F9;
     --cinza-terciario: #C0C0C0;
     --azul-botao: #167BF7;
+    --azul-hover: #348af3;
     --preto-fundo: #00030C;
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -71,10 +72,18 @@ body {
     margin-bottom: 1rem;
 }
 
+.container__btn-primario:hover {
+    background-color: var(--azul-hover);
+}
+
 .container__btn-secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
     margin-bottom: 0.625rem;
+}
+
+.container__btn-secundario:hover {
+    background-color: rgb(22, 22, 22);
 }
 
 .container__aviso {
@@ -120,4 +129,59 @@ body {
 .terciario__btn {
     background-color: var(--azul-botao);
     width: 30%;
+}
+
+.terciario__btn:hover {
+    background-color: var(--azul-hover);
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 4.3125rem;
+    margin: 3.5rem 0 6rem 0;
+}
+
+.lista__item {
+    color: var(--branco-principal);
+    font-size: 2rem;
+    font-weight: 700;
+    gap: 1rem;
+}
+
+.rodape {
+    text-align: center;
+    padding: 6.25rem 7.5rem;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 2.5rem 0 1.5rem 0;
+}
+
+.rodape__lista a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.rodape__lista a:hover {
+    color: var(--azul-botao);
+}
+
+.rodape__texto {
+    color: var(--cinza-terciario);
+    font-size: 0.875rem;
+}
+
+.rodape__texto-primeiro {
+    padding-bottom: 1.25rem;
 }
