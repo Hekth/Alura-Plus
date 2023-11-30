@@ -8,7 +8,7 @@
   Não possui responsividade, apenas para telas desktops.
 </p>
 
-![image](https://github.com/Hekth/Alura-Plus/assets/151862970/ea71271b-0fe1-4f3a-b3cc-c52bf5234a64)
+![image](https://github.com/Hekth/Alura-Plus/assets/151862970/beee8605-e52f-42c0-a5b8-07c3ed0fd79a)
 
 <h2>
   Tecnologias utilizadas
